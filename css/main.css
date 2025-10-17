@@ -9,7 +9,7 @@
   --light-color: #f6f3ed;
   --body-bg: #f6f3ed;
   --text-color: #333;
-  --font-family: 'Inter', Arial, sans-serif;
+  --font-family: 'Sarala', Arial, sans-serif;
 }
 
 body {
@@ -27,12 +27,12 @@ body {
   background-color: rgba(var(--bs-primary-rgb), 0.9);
 }
 .btn-light:hover {
-  background-color: rgba(var(--primary-rgb), 0.2);
+  background-color: rgba(var(--bs-primary-rgb), 0.2);
 }
 
 #hero {
   background: url("../images/hero-bg-img.png") center/cover no-repeat;
-  min-height: 70vh;
+  min-height: 800px;
 }
 #hero h1 {
   color: var(--text-color);
@@ -50,7 +50,7 @@ section {
   padding-bottom: 4rem;
 }
 section h2 {
-  color: var(--primary-color);
+  color: var(--bs-primary);
   font-weight: 600;
 }
 
@@ -95,22 +95,11 @@ footer.bg-dark {
   color: #F6F3ED;
 }
 
-body {
-  font-family: "Sarala", sans-serif;
-}
 
 h1, h2, h3 {
   font-family: "Merriweather", serif;
 }
-
-#hero {
-  height: 800px;
-  background-color: #E4E6DB;
-  background-image: url(../images/hero-bg-img.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+ 
 
 #hero .d-flex {
   height: 800px;
